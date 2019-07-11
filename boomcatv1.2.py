@@ -368,7 +368,7 @@ class GameCtrl:
 
 gc=GameCtrl(4)
 while(gc.runing):
-    gc._showall()
+    #gc._showall()
     gc.dointurn()
     gc.nextturn()
 
